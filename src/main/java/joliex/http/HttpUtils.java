@@ -98,7 +98,7 @@ public class HttpUtils extends JavaService {
 	}
 
 	@RequestResponse
-	public void close( String sid )
+	public void closeStream( String sid )
 		throws FaultException {
 		AtomicBoolean control = controls.get( sid );
 		if( control == null ) {

@@ -31,7 +31,9 @@ interface HttpUtilsIface {
 RequestResponse:
 	/// Connects to an HTTP stream. Returns the id of the created stream.
 	connectStream( ConnectStreamRequest )( SID ) throws URISyntaxException,
-	close( SID )( void ) throws NotFound
+
+	/// Closes the stream with the requested stream identifier
+	closeStream( SID )( void ) throws NotFound
 }
 
 type NextStreamMessage {
