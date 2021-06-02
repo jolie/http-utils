@@ -1,0 +1,21 @@
+{
+	"name": "@jolie/http-utils",
+	"description": "An HTTP utility library for Jolie",
+	"author": {
+		"name": "Fabrizio Montesi",
+		"email": "famontesi@gmail.com",
+		"url": "https://www.fabriziomontesi.com"
+	},
+	"version": "0.1.0",
+	"license": "LGPL 2.1",
+	"keywords": ["jolie", "microservices"],
+	"distJar": "http-utils-0.1.0.jar",
+	"dependencies": {
+		"mvn": {
+			"org.apache.httpcomponents.client5:httpclient5": "5.0.3",
+			"org.apache.httpcomponents.core5:httpcore5": "5.0.3",
+			"org.apache.httpcomponents.core5:httpcore5-h2": "5.0.3"
+		},
+		"npm": {}
+	}
+}
