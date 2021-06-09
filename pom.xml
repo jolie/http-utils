@@ -14,6 +14,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
+		<jolie.version>1.10.4</jolie.version>
 	</properties>
 
 	<dependencies>
@@ -32,17 +33,17 @@
 		<dependency>
 			<groupId>org.jolie-lang</groupId>
 			<artifactId>jolie</artifactId>
-			<version>1.10.0</version>
+			<version>${jolie.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.jolie-lang</groupId>
 			<artifactId>libjolie</artifactId>
-			<version>1.10.0</version>
+			<version>${jolie.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.jolie-lang</groupId>
 			<artifactId>jolie-js</artifactId>
-			<version>1.10.0</version>
+			<version>${jolie.version}</version>
 		</dependency>
 		<dependency>
             <groupId>org.apache.httpcomponents.client5</groupId>
